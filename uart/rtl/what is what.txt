@@ -1,0 +1,13 @@
+baud.vhdl baud clk for sampling
+baud_tb.vhdl tb for baud
+
+baud16.vhdl baud clk for tx,rx
+baud16_tb.vhdl tb for baud and baud16
+
+tx.vhdl transmitter
+tx_tb.vhdl tb for tx baud and baud16
+
+rx.vhdl receiver
+rx_tb.vhdl tb for rx tx baud and baud16.(rx and tx are connected)
+
+uart.vhdl toplevel tb is not finished

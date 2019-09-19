@@ -1,0 +1,5 @@
+diagram work.uart.toplevel {
+	def wire group rx_instToReg_stat_processBus (framing_error, overrun)
+	def wire group seqToCpu_interfaceBus (reg_baud_nxt, reg_ctrl_nxt, reg_data_rx, reg_data_tx_nxt)
+	def wire group seqToInterruptBus (iobus_irq_rxc_wire_nxt, iobus_irq_txc_wire_nxt, iobus_irq_udre_wire_nxt, rx_enable_nxt, rxc_flag_ff, tx_busy_ff, tx_enable_nxt)
+}
